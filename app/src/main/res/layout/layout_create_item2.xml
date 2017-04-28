@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="personGroupId"
+        android:id="@+id/personGroupIdET"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="name"
+        android:id="@+id/nameET"/>
+
+    <!--<EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="userData(optional)"
+        android:id="@+id/userDataET"/>-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="depart"
+        android:id="@+id/departET"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="sex(optional)"
+        android:id="@+id/sexET"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="age(optional)"
+        android:id="@+id/ageET"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="time(optional)"
+        android:id="@+id/timeET"/>
+
+</LinearLayout>

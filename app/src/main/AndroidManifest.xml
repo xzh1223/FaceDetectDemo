@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gst.gstfacedemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.IndexActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.BaseActivity" />
+        <activity
+            android:name=".activity.GroupListActivity"
+            android:label="GroupList" />
+        <activity
+            android:name=".activity.PersonListActivity"
+            android:label="PersonList" />
+        <activity
+            android:name=".activity.PersonActivity"
+            android:label="Person" />
+        <activity
+            android:name=".activity.FaceListsActivity"
+            android:label="FaceLists" />
+        <activity
+            android:name=".activity.FaceListActivity"
+            android:label="FaceList" />
+        <activity
+            android:name=".activity.FaceDetectActivity"
+            android:label="FaceDetect" />
+        <activity
+            android:name=".activity.FaceFindSimilarActivity"
+            android:label="FindSimilar" />
+        <activity
+            android:name=".activity.SelectPicture"
+            android:label="SelectPicture" />
+        <activity
+            android:name=".activity.IdentifyActivity"
+            android:label="Identify" />
+        <activity android:name=".activity.VerifyActivity"
+            android:label="Verify"/>
+
+
+    </application>
+
+</manifest>
